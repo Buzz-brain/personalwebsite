@@ -355,7 +355,8 @@ article section img{
 }
 #pictures .row {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 #pictures .photo {
     background-position: center;
@@ -363,7 +364,7 @@ article section img{
     background-size: cover;
     height: 300px;
     margin-bottom: 50px;
-    width: 30%;
+    width: 90%;
 }
 
 #pictures .my_photo {
@@ -710,7 +711,13 @@ footer h6{
         left: 145px;
         top: 297px;
     }
-    
+    #pictures .row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #pictures .photo {
+        width: 30%;
+    }
 }
 
 @media (min-width: 1200px){
@@ -728,11 +735,9 @@ footer h6{
     .first_ctn{
         width: 47.5%;
     }
-    
     .second_ctn{
         width: 47.5%;
     }
-
 }
 
 
