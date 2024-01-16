@@ -367,7 +367,7 @@ article section img{
 }
 
 #pictures .my_photo {
-    background-image:url(images/my_image.png);
+    background-image:url(./images/my_image.png);
 }
 #pictures .my_photo1 {
     background-image:url(/images/my_image1.jpg);
