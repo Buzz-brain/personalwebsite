@@ -340,7 +340,7 @@ article section img{
 #pictures h6{
     margin-bottom: 20px;
     padding-top: 50px;
-    
+    color:rgba(132, 145, 160, 1);
     font-size: 1rem; 
     margin-bottom: 10px;
     font-weight: 700;
@@ -370,19 +370,19 @@ article section img{
     background-image:url(./images/my_image.png);
 }
 #pictures .my_photo1 {
-    background-image:url(/images/my_image1.jpg);
+    background-image:url(./images/my_image1.jpg);
 }
 #pictures .my_photo2 {
-    background-image:url(/images/my_image2.jpg);
+    background-image:url(./images/my_image2.jpg);
 }
 #pictures .my_photo3 {
-    background-image:url(/images/my_image3.jpg);
+    background-image:url(./images/my_image3.jpg);
 }
 #pictures .my_photo4 {
-    background-image:url(/images/my_image4.jpg);
+    background-image:url(./images/my_image4.jpg);
 }
 #pictures .my_photo5 {
-    background-image:url(/images/my_image5.jpg);
+    background-image:url(./images/my_image5.jpg);
 }
 
 /*--------------------MY PROJECTS STYLING-----------------*/
